@@ -1,1 +1,49 @@
-/* Start coding here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Sarabun', sans-serif;
+    background-color: #f7f9fc;
+  }
+  
+  .header {
+    background-color: #7f9fbf;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .blog-card {
+    background-color: #eaf0f8;
+    border: 2px solid #42546a;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .blog-card h2 {
+    color: #42546a;
+    margin-bottom: 15px;
+  }
+  
+  .image-placeholder {
+    background-color: #d0d8e4;
+    height: 150px;
+    border: 2px dashed #42546a;
+    margin-bottom: 15px;
+  }
+  
+  .blog-card p {
+    color: #42546a;
+    line-height: 1.5;
+  }
+  
