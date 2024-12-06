@@ -1,1 +1,35 @@
-/* Start coding here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .middle-box {
+    border: 16px solid black; 
+    padding: 24px; 
+    background-color: crimson;
+  }
+  
+  .inner-box {
+    border: 24px solid crimson;
+    padding: 24px;
+    background-color: khaki;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 72px;
+    color: black;
+    margin: 30px;
+  }
+  
